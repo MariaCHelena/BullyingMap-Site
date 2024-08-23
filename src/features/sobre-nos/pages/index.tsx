@@ -1,7 +1,7 @@
-import fotoCriancas from '../../../public/foto-criancas.jpg'
-import Carrossel from '../../components/carrossel'
-import flor from '../../../public/flor.png'
-import sol from '../../../public/sol.png'
+import fotoCriancas from '../../../../public/foto-criancas.jpg'
+import Carrossel from '../../../components/carrossel'
+import flor from '../../../../public/flor.png'
+import sol from '../../../../public/sol.png'
 
 export default function SobreNos(){
     return<main>
