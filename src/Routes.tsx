@@ -1,6 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import SobreNos from "./pagas/sobreNos"
-import Header from "./components/header"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SobreNos from "@/features/sobre-nos/pages";
+import Header from "@/shared/components/header";
+
 
 function AppRoutes() {
   return (
@@ -10,7 +11,7 @@ function AppRoutes() {
         <Route path="/BullyingMap-Site" element={<SobreNos/>}/>
       </Routes>
     </BrowserRouter>
-  ) 
+  )
 }
 
 export default AppRoutes
