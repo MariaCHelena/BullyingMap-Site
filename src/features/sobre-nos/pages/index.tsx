@@ -1,5 +1,5 @@
 import fotoCriancas from '../../../../public/foto-criancas.jpg'
-import Carrossel from '../../../components/carrossel'
+import Carrossel from '../carrossel'
 import flor from '../../../../public/flor.png'
 import sol from '../../../../public/sol.png'
 

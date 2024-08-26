@@ -1,7 +1,7 @@
 const membros = [
     {
         id: 1,
-        foto: '../../../assets/membros/fragelli.jpeg',
+        foto: '../../../../assets/membros/fragelli.jpeg',
         nome: 'Ricardo Ramos Fragelli',
         codNome: 'NEO, O ESCOLHIDO',
         funcao: 'Coordenador Geral e Pesquisador',
@@ -10,7 +10,7 @@ const membros = [
     },
     {
         id: 2,
-        foto: '../../../assets/membros/matheus.jpg',
+        foto: '../../../../assets/membros/matheus.jpg',
         nome: 'Matheus Assis Ribeiro da Silva',
         codNome: 'HOKAGE, O SONHADOR',
         funcao: 'Gestor Executivo',
@@ -19,7 +19,7 @@ const membros = [
     },
     {
         id: 3,
-        foto: '../../../assets/membros/kerolyn.jpg',
+        foto: '../../../../assets/membros/kerolyn.jpg',
         nome: 'Kerolyn Ramos Garcia',
         codNome: 'ORÁCULO, A ONIPRESENTE',
         funcao: 'Gestora Administrativa & Financeira',
@@ -28,7 +28,7 @@ const membros = [
     },
     {
         id: 4,
-        foto: '../../../assets/membros/idamar.jpg',
+        foto: '../../../../assets/membros/idamar.jpg',
         nome: 'Idamar Ribeiro Nascimento',
         codNome: 'J.A.R.V.I.S., O SOFTWARE HUMANO',
         funcao: 'Secretário Geral',
@@ -37,7 +37,7 @@ const membros = [
     },
     {
         id: 5,
-        foto: '../../../assets/membros/thiago.jpg',
+        foto: '../../../../assets/membros/thiago.jpg',
         nome: 'Tiago Barros Pontes e Silva',
         codNome: 'AVATAR, O DOBRADOR DE ARTIGOS',
         funcao: 'Pesquisador e consultor de design',
@@ -46,7 +46,7 @@ const membros = [
     },
     {
         id: 6,
-        foto: '../../../assets/membros/virginia.jpg',
+        foto: '../../../../assets/membros/virginia.jpg',
         nome: 'Virginia Tiradentes Souto',
         codNome: 'FEITICEIRA, A MAGA DA UI/UX',
         funcao: 'Pesquisadora e consultora de design',
@@ -55,7 +55,7 @@ const membros = [
     },
     {
         id: 7,
-        foto: '../../../assets/membros/wander.jpg',
+        foto: '../../../../assets/membros/wander.jpg',
         nome: 'Wander Cleber Maria Pereira da Silva',
         codNome: 'ALEGRIA, O PROFESSOR DIVERTIDAMENTE',
         funcao: 'Pesquisador e Psicólogo',
@@ -64,7 +64,7 @@ const membros = [
     },
     {
         id: 8,
-        foto: '../../../assets/membros/thays.jpg',
+        foto: '../../../../assets/membros/thays.jpg',
         nome: 'Thays Nunes Silva',
         codNome: 'ALEX (MINECRAFT), A ARQUITETA DOS SONHOS',
         funcao: 'Arquiteta e projetista',
@@ -73,7 +73,7 @@ const membros = [
     },
     {
         id: 9,
-        foto: '../../../assets/membros/jeniffer.jpg',
+        foto: '../../../../assets/membros/jeniffer.jpg',
         nome: 'Jeniffer Martins Luz',
         codNome: 'TIANA, A PRINCESA DOS CÓDIGOS',
         funcao: 'Analista de Cyber Segurança',
@@ -82,7 +82,7 @@ const membros = [
     },
     {
         id: 10,
-        foto: '../../../assets/membros/karen.jpg',
+        foto: '../../../../assets/membros/karen.jpg',
         nome: 'Karen Ramos Garcia',
         codNome: 'DORY, A DETENTORA DA MEMÓRIA',
         funcao: 'Assistente Administrativa e turismóloga',
@@ -91,7 +91,7 @@ const membros = [
     },
     {
         id: 11,
-        foto: '../../../assets/membros/marllon.jpg',
+        foto: '../../../../assets/membros/marllon.jpg',
         nome: 'Marllon Fausto Cardoso',
         codNome: 'TADASHI YAMADA, O IRMÃO DO JAVA',
         funcao: 'Iniciação Científica',
@@ -100,7 +100,7 @@ const membros = [
     },
     {
         id: 12,
-        foto: '../../../assets/membros/pedro.jpg',
+        foto: '../../../../assets/membros/pedro.jpg',
         nome: 'Pedro Guilherme Leal Ferreira da Silva Mussoline',
         codNome: 'SHERLOCK, INVESTIGADOR DE OPORTUNIDADES',
         funcao: 'Revisor de texto',
@@ -109,7 +109,7 @@ const membros = [
     },
     {
         id: 13,
-        foto: '../../../assets/membros/stella.jpg',
+        foto: '../../../../assets/membros/stella.jpg',
         nome: 'Stella Cristina Ribeiro da Silva',
         codNome: 'MULAN, A BRAVA',
         funcao: 'Terapeuta Ocupacional',
@@ -118,7 +118,7 @@ const membros = [
     },
     {
         id: 14,
-        foto: '../../../assets/membros/raulex.jpg',
+        foto: '../../../../assets/membros/raulex.jpg',
         nome: 'Raulex Ramos',
         codNome: 'ELLIOT, O HACKER',
         funcao: 'Consultor em Segurança da Informação',
@@ -127,7 +127,7 @@ const membros = [
     },
     {
         id: 15,
-        foto: '../../../assets/membros/yasmim.jpg',
+        foto: '../../../../assets/membros/yasmim.jpg',
         nome: 'Yasmim de Oliveira Caló',
         codNome: 'VIÚVA NEGRA, A FATALE',
         funcao: 'Terapeuta Ocupacional',
@@ -136,7 +136,7 @@ const membros = [
     },
     {
         id: 16,
-        foto: '../../../assets/membros/helena.jpg',
+        foto: '../../../../assets/membros/helena.jpg',
         nome: 'Maria Helena Carvalho',
         codNome: 'RECRUTA, A LOW PROFILE',
         funcao: 'Iniciação Científica',
@@ -145,7 +145,7 @@ const membros = [
     },
     {
         id: 17,
-        foto: '../../../assets/membros/tatiana.jpg',
+        foto: '../../../../assets/membros/tatiana.jpg',
         nome: 'Tatiana Queiroz Velloso da Silveira',
         codNome: 'KITTY PATA MANSA, A GÓTICA DAS CORES',
         funcao: 'Assessora de Arte & Design',
