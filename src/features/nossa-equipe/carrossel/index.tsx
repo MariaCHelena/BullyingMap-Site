@@ -2,7 +2,11 @@ import { useState, useRef } from "react"
 import membros from "@/mocks/membros";
 import CardMember from "./cardMember"
 
+import bluBlockLeft from '../images/blue-blocks-l.png'
+import bluBlockRight from '../images/blue-blocks-r.png'
+
 import { ArrowLongRightIcon, ArrowLongLeftIcon } from "@heroicons/react/16/solid";
+import DescMember from "./descMember";
 
 export default function Carrossel(){
     const carrossel = useRef(null)
@@ -55,41 +59,52 @@ export default function Carrossel(){
         carrossel.current.scrollLeft += carrossel.current.offsetWidth        
     }
 
-    return <span className="flex flex-col justify-center">
-        <div className="flex gap-5 justify-center">
+    return <div className="flex flex-col-reverse md:flex-col justify-center w-full">
+        <span className="flex gap-5 justify-center">
             <button onClick={handleLeftClick}>
-                <ArrowLongLeftIcon className="size-8 text-blue-500 bg-transparent"/>
+                <ArrowLongLeftIcon className="size-8 text-azulMedio bg-transparent"/>
             </button>
 
             <div ref={carrossel} className="overflow-auto scrollbar-hide w-[80%] flex gap-10 overflow-x-auto scroll-smooth">
-                {membros.map((membro) =>
-                    <CardMember 
-                    id={membro.id}
-                    nome={membro.nome} 
-                    foto={membro.foto} 
-                    codNome={membro.codNome} 
-                    linkLattes={membro.linkLattes} 
-                    descricao={membro.descricao}
-                    funcao={membro.funcao}
-                    onClick={handleClick}/>
+                {membros.map((membro, index) =>
+                    <div className='flex flex-none flex-col-reverse md:flex-col justify-center items-center' key={index}>
+                        <CardMember 
+                        id={membro.id}
+                        nome={membro.nome} 
+                        foto={membro.foto} 
+                        codNome={membro.codNome} 
+                        linkLattes={membro.linkLattes} 
+                        descricao={membro.descricao}
+                        funcao={membro.funcao}
+                        onClick={handleClick}
+                        select={membroTarget.id === membro.id}/>
+                    </div>
                 )}
             </div>
 
             <button onClick={handleRightClick}>
-                <ArrowLongRightIcon className="size-8 text-blue-500 bg-transparent"/>
+                <ArrowLongRightIcon className="size-8 text-azulMedio bg-transparent"/>
             </button>
-        </div>
-        
-        <div className="flex justify-center items-center mt-28">
-            {
-                (membroTarget.id !== 0) && <div className="flex flex-col w-2/3">
-                    <h3 className="text-azul font-bold text-2xl">{membroTarget.codNome}</h3>
-                    <h4 className="text-azul text-xl italic">{membroTarget.nome}</h4>
-                    <h4 className="text-azul text-xl italic">{membroTarget.funcao}</h4>
-                    <p className="my-2 text-preto text-xl text-justify">{membroTarget.descricao}</p>
-                    <a className="text-laranja font-bold text-lg" href={membroTarget.linkLattes}>LINK LATTES</a>
+        </span>
+
+        <span className="my-10 mx-0 flex justify-center md:justify-between items-center w-full">
+            <img className="hidden md:block w-48 h-72" src={bluBlockLeft} alt="blocos azuis" />
+            {(membroTarget.id !== 0) ? 
+                <DescMember 
+                id={membroTarget.id}
+                nome={membroTarget.nome}  
+                codNome={membroTarget.codNome} 
+                linkLattes={membroTarget.linkLattes} 
+                descricao={membroTarget.descricao}
+                funcao={membroTarget.funcao}/>
+                :
+                <div className="flex flex-col gap-10 items-center">
+                    <h3 className="text-laranja font-bold text-2xl">Conheça a nossa equipe!</h3>
+                    <h4 className="text-azul text-xl italic">Clique na foto de cada membro e conheça um pouco de cada um.</h4>
                 </div>
+                        
             }
-        </div>
-    </span>
+            <img className="hidden md:block w-64 h-72" src={bluBlockRight} alt="blocos azuis" />
+        </span>
+    </div>
 }
