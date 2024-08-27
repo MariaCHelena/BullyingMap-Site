@@ -1,7 +1,5 @@
 import fotoCriancas from '../../../../public/foto-criancas.jpg'
-import Carrossel from '../carrossel'
 import flor from '../../../../public/flor.png'
-import sol from '../../../../public/sol.png'
 
 export default function SobreNos(){
     return<main>
@@ -69,15 +67,6 @@ export default function SobreNos(){
                     <br /><br />
                     Por esse vÍnculo de financiamento do projeto com a FAP-DF, será necessária a elaboração do nosso Relatório de Prestação de Contas - RPC. O RPC é importantíssimo para todos nós da equipe. Nele, iremos dizer: "fizemos tudo que nos propusemos, com máxima transparência e probidade! Merecemos ser financiados de novo!". Para isso ser dito, a colaboração de toda a equipe é essencial e vamos orientar vocês em todo o processo de construção das partes deste relatório. É uma responsabilidade do time.
                 </p>
-            </div>
-
-            <div>
-                <span className='flex'>
-                    <img className='w-20 h-20' src={flor} alt="" />
-                    <img className='w-20 h-20' src={sol} alt="" />
-                </span>
-                <h1>A EQUIPE</h1>
-                <Carrossel/>
             </div>
         </div>
     </main>
