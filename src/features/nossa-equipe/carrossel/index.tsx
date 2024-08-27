@@ -100,7 +100,7 @@ export default function Carrossel(){
                 :
                 <div className="flex flex-col gap-10 items-center">
                     <h3 className="text-laranja font-bold text-2xl">Conheça a nossa equipe!</h3>
-                    <h4 className="text-azul text-xl italic">Clique na foto de cada membro e conheça um pouco de cada um.</h4>
+                    <h4 className="text-azul text-center text-xl italic">Clique na foto de cada membro e conheça um pouco de cada um.</h4>
                 </div>
                         
             }
