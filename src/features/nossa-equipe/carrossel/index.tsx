@@ -71,7 +71,6 @@ export default function Carrossel(){
                         <CardMember 
                         id={membro.id}
                         nome={membro.nome} 
-                        foto={membro.foto} 
                         codNome={membro.codNome} 
                         linkLattes={membro.linkLattes} 
                         descricao={membro.descricao}

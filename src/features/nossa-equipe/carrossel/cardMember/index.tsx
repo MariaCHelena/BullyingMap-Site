@@ -14,7 +14,7 @@ interface PersonProps {
     select: boolean;
 }
 
-const CardMember: React.FC<PersonProps> = ({id, nome, codNome, funcao, descricao, linkLattes, onClick, select}) => {
+const CardMember = ({id, nome, codNome, funcao, descricao, linkLattes, onClick, select}: PersonProps) => {
     // const [select, setSelect] = useState(false)
     const [image, setImage] = useState<string>('')
 

@@ -14,7 +14,7 @@ interface PersonProps {
     select: boolean;
 }
 
-const DescMember:React.FC<PersonProps> = ({id, nome, codNome, funcao, descricao, linkLattes}) => {
+const DescMember = ({id, nome, codNome, funcao, descricao, linkLattes}: PersonProps) => {
     const [image, setImage] = useState<string>('')
 
     useEffect(()=>{
