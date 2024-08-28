@@ -1,7 +1,7 @@
 import arvore from '../images/arvore.png'
 
 const EditalPage = () => {
-    return<div className="flex flex-col justify-center items-center h-auto gap-16 mx-10 sm:mx-20 md:mx-36">
+    return<div className="flex flex-col justify-center items-center h-auto gap-16 mx-10 sm:mx-20 md:mx-36 mt-10">
         <div className='flex flex-col justify-start gap-3'>
             <h1 className=" text-laranja text-4xl font-bold">EDITAL</h1>
             <h2 className="text-azul text-lg font-bold">COTAÇÃO PÚBLICA DE PREÇOS NO 001/2024</h2>
