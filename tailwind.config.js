@@ -8,9 +8,11 @@ export default {
     extend: {
       colors: {
         laranja: '#CB491D',
+        amarelo: '#F6A414',
         azul: '#204D9C',
         fundo: '#FBF0ED',
         azulClaro: '#1F9BD7',
+        azulMedio: '#184DFA',
         marrom: '#31201A',
         preto: '#000000',
         branco: '#ffffff',
