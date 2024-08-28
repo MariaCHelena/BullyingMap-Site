@@ -65,7 +65,7 @@ export default function Carrossel(){
                 <ArrowLongLeftIcon className="size-8 text-azulMedio bg-transparent"/>
             </button>
 
-            <div ref={carrossel} className="overflow-auto scrollbar-hide w-[80%] flex gap-10 overflow-x-auto scroll-smooth">
+            <div ref={carrossel} className="overflow-auto scrollbar-hide w-[80%] flex gap-5 overflow-x-auto scroll-smooth">
                 {membros.map((membro, index) =>
                     <div className='flex flex-none flex-col-reverse md:flex-col justify-center items-center' key={index}>
                         <CardMember 
