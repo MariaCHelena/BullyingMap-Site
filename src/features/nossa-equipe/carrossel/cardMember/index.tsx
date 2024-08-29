@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import abelha from '../../../../../public/abelha.png'
 
 import { ArrowLongRightIcon } from '@heroicons/react/16/solid';
@@ -26,7 +26,7 @@ const CardMember = ({id, nome, codNome, funcao, descricao, linkLattes, onClick, 
 
     return(<>
     <img className='w-h-20 md:w-28 h-20 md:h-28' src={abelha} alt="Abelah" />
-    <button 
+    <button
         className='flex flex-col justify-center items-center'
         onClick={() => onClick(nome, codNome, funcao, descricao, linkLattes, id)}>
 
@@ -40,7 +40,7 @@ const CardMember = ({id, nome, codNome, funcao, descricao, linkLattes, onClick, 
                 {nome.split(' ')[0]} <ArrowLongRightIcon className={`hidden sm:block size-6 ${select ? 'text-azulMedio' : 'text-white'} bg-transparent`}/>
             </p>
         </div>
-   
+
     </button>
     </>)
 }
