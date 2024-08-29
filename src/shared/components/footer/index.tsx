@@ -2,7 +2,7 @@ import logo from "@/assets/Bullying Map_Wireframe_Sobre_v5-03.png"
 
 export default function Footer() {
   return (
-    <footer className="w-full p-14 flex justify-between items-center bg-azulClaro mt-24 flex-col xl:flex-row gap-4">
+    <footer className="w-full p-14 flex justify-between items-center bg-azulClaro md:mt-24 flex-col xl:flex-row gap-4">
       <div className="hidden flex-col xl:flex flex-1">
         <span className="font-bold text-white">EMAIL</span>
         <span className="text-white">BULLYINGMAP.FAPDF@GMAIL.COM</span>
