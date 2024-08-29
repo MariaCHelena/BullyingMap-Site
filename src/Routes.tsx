@@ -8,12 +8,14 @@ import EditalPage from "./features/edital/pages";
 function AppRoutes() {
   return (
     <BrowserRouter>
-      <Header/>
-      <Routes>
-        <Route path="/BullyingMap-Site" element={<SobreNos/>}/>
-        <Route path="/BullyingMap-Site/nossaequipe" element={<NossaEquipe/>}/>
-        <Route path="/BullyingMap-Site/edital/cotacao-publica-precos-No-001/2024" element={<EditalPage/>}/>
-      </Routes>
+      <main className="w-screen h-screen overflow-x-hidden">
+        <Header/>
+        <Routes>
+          <Route path="/BullyingMap-Site" element={<SobreNos/>}/>
+          <Route path="/BullyingMap-Site/nossaequipe" element={<NossaEquipe/>}/>
+          <Route path="/BullyingMap-Site/edital/cotacao-publica-precos-No-001/2024" element={<EditalPage/>}/>
+        </Routes>
+      </main>
     </BrowserRouter>
   )
 }
