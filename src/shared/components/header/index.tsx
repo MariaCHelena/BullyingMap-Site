@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import logo from "@/assets/wireframe2_bullyingmap_mobile_SOBRE-06.png";
 import redeDeApoio from "@/assets/Icone_RedeApoio-03.png";
 import burger from "@/assets/wireframe2_bullyingmap_mobile_SOBRE-08.png";
-import HeaderModal from "@/shared/header-modal";
+import HeaderModal from "@/shared/components/header-modal";
 import { useState } from "react";
 
 export default function Header(){
