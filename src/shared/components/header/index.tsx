@@ -20,7 +20,7 @@ export default function Header(){
       />
       <header className="flex w-full">
         <ul className="px-16 flex flex-1 justify-between items-center
-        lg:px-8 2xl:px-56">
+        lg:px-8 2xl:px-80">
           <li className="hidden md:block">
             <span
               onClick={() => navigate("/BullyingMap-Site")}
