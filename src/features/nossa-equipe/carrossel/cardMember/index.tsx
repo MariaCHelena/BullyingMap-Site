@@ -28,7 +28,7 @@ const CardMember = ({id, nome, codNome, funcao, descricao, linkLattes, onClick, 
     <img className='w-h-20 md:w-28 h-20 md:h-28' src={abelha} alt="Abelah" />
     <button 
         className='flex flex-col justify-center items-center'
-        onClick={() => {onClick(nome, codNome, funcao, descricao, linkLattes, id)}}>
+        onClick={() => onClick(nome, codNome, funcao, descricao, linkLattes, id)}>
 
         <img className={`w-h-32 h-32 md:w-36 md:h-36 border-8 ${select ? 'border-amarelo' : 'border-azulClaro'}`} src={image} alt="" />
 

@@ -50,11 +50,11 @@ export default function Carrossel(){
         }
     }
 
-    const handleLeftClick = (e: React.MouseEvent<HTMLElement>) => {
+    const handleLeftClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault()
         carrossel.current.scrollLeft -= carrossel.current.offsetWidth
     }
-    const handleRightClick = (e: React.MouseEvent<HTMLElement>) => {
+    const handleRightClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault()
         carrossel.current.scrollLeft += carrossel.current.offsetWidth        
     }
