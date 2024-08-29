@@ -5,22 +5,32 @@ export default function SobreNos() {
   return (
     <main className="mx-40 mt-8">
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col gap-4">
-          <h1 className="text-4xl font-extrabold text-laranja">O PROJETO</h1>
-          <h2 className="text-3xl font-bold text-azul">O BULLYING MAP</h2>
-        </div>
-        <p className="leading-6 text-xl w-7/12">
-          Trata-se de projeto que utiliza a tecnologia, a gamificação, a
-          educação e as artes marciais como ferramentas antibullying, buscando
-          a transformação da realidade ao atuar contra o bullying e seus temas
-          correlatos. Nossa missão É criar ferramentas e metodologias ativas
-          que promovam ambientes livres de medo e intimidação.
-        </p>
+        <section className="flex flex-col gap-8 relative">
+          <div className="flex flex-col gap-4">
+            <h1 className="text-5xl font-extrabold text-laranja">O PROJETO</h1>
+            <h2 className="text-4xl font-bold text-azul">O BULLYING MAP</h2>
+          </div>
+          <p className="leading-6 text-xl w-8/12">
+            Trata-se de projeto que utiliza a tecnologia, a gamificação, a
+            educação e as artes marciais como ferramentas antibullying, buscando
+            a transformação da realidade ao atuar contra o bullying e seus temas
+            correlatos.
+            <br/>
+            Nossa missão É criar ferramentas e metodologias ativas
+            que promovam ambientes livres de medo e intimidação.
+          </p>
+          <span className="hidden md:flex absolute top-0 right-36 w-6 h-6 bg-amarelo"></span>
+          <span className="hidden md:flex absolute top-24 right-56 w-6 h-6 bg-amarelo"></span>
+          <span className="hidden md:flex absolute top-52 right-32 w-6 h-6 bg-amarelo"></span>
+          <span className="hidden md:flex absolute top-72 -right-10 w-6 h-6 bg-amarelo"></span>
+        </section>
+
+
         <section className="flex gap-20">
           <img src={fotoCriancas} className="h-96 object-cover -ml-40" />
           <div className="mt-6">
             <h2 className="text-3xl font-bold text-azul mb-4">VALORES E OBJETIVO</h2>
-            <p className="leading-6 text-xl">
+            <p className="leading-6 text-xl mr-6">
               Respeito ao próximo e a si mesmo; empatia com as
               vulnerabilidades; coragem para lidar com as adversidades;
               educação como caminho da liberdade. Nosso objetivo com o projeto
