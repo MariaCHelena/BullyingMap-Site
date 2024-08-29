@@ -4,14 +4,14 @@ import sol from '../../../../../public/sol.png'
 
 interface PersonProps {
     id: number;
-    foto: string;
+    foto?: string;
     nome: string;
     codNome: string;
     funcao: string;
     descricao: string;
     linkLattes: string;
-    onClick: (nome:string, codNome:string, funcao:string, descricao:string, linkLattes:string, index:number) => void;
-    select: boolean;
+    onClick?: (nome:string, codNome:string, funcao:string, descricao:string, linkLattes:string, index:number) => void;
+    select?: boolean;
 }
 
 const DescMember = ({id, nome, codNome, funcao, descricao, linkLattes}: PersonProps) => {
