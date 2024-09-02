@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import abelha from '../../../../../public/abelha.png'
 
 import { ArrowLongRightIcon } from '@heroicons/react/16/solid';

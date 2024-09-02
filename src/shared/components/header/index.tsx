@@ -19,7 +19,7 @@ export default function Header(){
         route={route}
       />
       <header className="flex w-full">
-        <ul className="px-16 flex flex-1 justify-between items-center
+        <ul className="px-10 flex flex-1 justify-between items-center
         lg:px-8 2xl:px-56">
           <li className="hidden md:block">
             <span
@@ -55,7 +55,7 @@ export default function Header(){
             </span>
           </li>
           <li className="block md:hidden cursor-pointer">
-            <img src={burger} className="h-20" onClick={() => setModalOpen(true)}/>
+            <img src={burger} className="mx-4 h-20" onClick={() => setModalOpen(true)}/>
           </li>
           <li className="self-start">
             <img src={logo} className="h-20 object-cover"/>
@@ -83,7 +83,7 @@ export default function Header(){
             </span>
           </li>
           <li>
-            <img src={redeDeApoio} className="h-24"/>
+            <img src={redeDeApoio} className="w-24 h-w-24"/>
           </li>
         </ul>
       </header>
