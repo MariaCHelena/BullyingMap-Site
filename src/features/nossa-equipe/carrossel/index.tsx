@@ -52,11 +52,13 @@ export default function Carrossel(){
 
     const handleLeftClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault()
-        carrossel.current.scrollLeft -= carrossel.current.offsetWidth
+        if(carrossel.current) // @ts-ignore
+            carrossel.current.scrollLeft -= carrossel.current.offsetWidth
     }
     const handleRightClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault()
-        carrossel.current.scrollLeft += carrossel.current.offsetWidth        
+        if(carrossel.current) // @ts-ignore
+            carrossel.current.scrollLeft += carrossel.current.offsetWidth
     }
 
     return <div className="flex flex-col-reverse md:flex-col justify-center items-center w-full">
@@ -68,11 +70,11 @@ export default function Carrossel(){
             <div ref={carrossel} className="overflow-auto scrollbar-hide w-full flex gap-2 sm:gap-6 overflow-x-auto scroll-smooth">
                 {membros.map((membro, index) =>
                     <div className='flex flex-none flex-col-reverse md:flex-col justify-center items-center' key={index}>
-                        <CardMember 
+                        <CardMember
                         id={membro.id}
-                        nome={membro.nome} 
-                        codNome={membro.codNome} 
-                        linkLattes={membro.linkLattes} 
+                        nome={membro.nome}
+                        codNome={membro.codNome}
+                        linkLattes={membro.linkLattes}
                         descricao={membro.descricao}
                         funcao={membro.funcao}
                         onClick={handleClick}
@@ -88,12 +90,12 @@ export default function Carrossel(){
 
         <span className="my-10 mx-0 flex justify-center md:justify-between items-center w-full">
             <img className="hidden md:block w-32 h-56 lg:w-48 lg:h-72" src={bluBlockLeft} alt="blocos azuis" />
-            {(membroTarget.id !== 0) ? 
-                <DescMember 
+            {(membroTarget.id !== 0) ?
+                <DescMember
                 id={membroTarget.id}
-                nome={membroTarget.nome}  
-                codNome={membroTarget.codNome} 
-                linkLattes={membroTarget.linkLattes} 
+                nome={membroTarget.nome}
+                codNome={membroTarget.codNome}
+                linkLattes={membroTarget.linkLattes}
                 descricao={membroTarget.descricao}
                 funcao={membroTarget.funcao}/>
                 :
@@ -101,7 +103,7 @@ export default function Carrossel(){
                     <h3 className="text-laranja font-bold text-2xl">Conheça a nossa equipe!</h3>
                     <h4 className="text-azul text-center text-xl italic">Clique na foto de cada membro e conheça um pouco de cada um.</h4>
                 </div>
-                        
+
             }
             <img className="hidden md:block w-52 h-56 lg:w-64 lg:h-72" src={bluBlockRight} alt="blocos azuis" />
         </span>

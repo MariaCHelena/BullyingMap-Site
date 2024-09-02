@@ -18,9 +18,9 @@ export default function Header(){
         handleClose={() => setModalOpen(false)}
         route={route}
       />
-      <header className="flex w-full">
-        <ul className="px-10 flex flex-1 justify-between items-center
-        lg:px-8 2xl:px-56">
+      <header className="flex w-full mt-2">
+        <ul className="px-4 flex flex-1 justify-between items-center
+        lg:px-8 2xl:px-80">
           <li className="hidden md:block">
             <span
               onClick={() => navigate("/BullyingMap-Site")}
@@ -55,10 +55,10 @@ export default function Header(){
             </span>
           </li>
           <li className="block md:hidden cursor-pointer">
-            <img src={burger} className="mx-4 h-20" onClick={() => setModalOpen(true)}/>
+            <img src={burger} className="h-8" onClick={() => setModalOpen(true)}/>
           </li>
-          <li className="self-start">
-            <img src={logo} className="h-20 object-cover"/>
+          <li className="flex-start mb-5">
+            <img src={logo} className="md:h-16 h-12 w-full object-cover"/>
           </li>
           <li className="hidden md:block">
             <span
@@ -83,7 +83,7 @@ export default function Header(){
             </span>
           </li>
           <li>
-            <img src={redeDeApoio} className="w-24 h-w-24"/>
+            <img src={redeDeApoio} className="md:h-24 h-12 w-full"/>
           </li>
         </ul>
       </header>
