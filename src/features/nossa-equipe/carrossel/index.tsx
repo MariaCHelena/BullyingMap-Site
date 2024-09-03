@@ -52,17 +52,17 @@ export default function Carrossel(){
 
     const handleLeftClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault()
-        if(carrossel.current) // @ts-ignore
+        if(carrossel.current) // @ts-expect-error: Unreachable code error
             carrossel.current.scrollLeft -= carrossel.current.offsetWidth
     }
     const handleRightClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault()
-        if(carrossel.current) // @ts-ignore
+        if(carrossel.current) // @ts-expect-error: Unreachable code error
             carrossel.current.scrollLeft += carrossel.current.offsetWidth
     }
 
-    return <div className="flex flex-col-reverse md:flex-col justify-center items-center w-full">
-        <span className="flex gap-2 sm:gap-5 justify-center w-11/12">
+    return <div className="flex flex-col justify-center items-center w-full gap-4">
+        <span className="flex gap- sm:gap-5 justify-center w-11/12">
             <button onClick={handleLeftClick}>
                 <ArrowLongLeftIcon className="size-6 sm:size-8 text-azulMedio bg-transparent"/>
             </button>
@@ -99,7 +99,7 @@ export default function Carrossel(){
                 descricao={membroTarget.descricao}
                 funcao={membroTarget.funcao}/>
                 :
-                <div className="flex flex-col gap-10 items-center">
+                <div className="flex flex-col gap-10 items-center w-10/12">
                     <h3 className="text-laranja font-bold text-2xl">Conheça a nossa equipe!</h3>
                     <h4 className="text-azul text-center text-xl italic">Clique na foto de cada membro e conheça um pouco de cada um.</h4>
                 </div>
