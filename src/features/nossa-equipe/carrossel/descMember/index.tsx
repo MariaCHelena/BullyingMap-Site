@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+// nada
 import sol from '../../../../../public/sol.png'
 
 interface PersonProps {
