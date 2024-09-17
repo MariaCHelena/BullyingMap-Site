@@ -3,34 +3,33 @@ import flor from "@/../public/flor.png";
 
 export default function SobreNos() {
   return (
-    <main className="mx-40 mt-8">
+    <main className="2xl:mx-40 md:mx-20 mx-8 mt-8">
       <div className="flex flex-col gap-8">
         <section className="flex flex-col gap-8 relative">
           <div className="flex flex-col gap-4">
             <h1 className="text-5xl font-extrabold text-laranja">O PROJETO</h1>
             <h2 className="text-4xl font-bold text-azul">O BULLYING MAP</h2>
           </div>
-          <p className="leading-6 text-xl w-8/12">
+          <p className="leading-6 text-xl md:w-8/12">
             Trata-se de projeto que utiliza a tecnologia, a gamificação, a
             educação e as artes marciais como ferramentas antibullying, buscando
             a transformação da realidade ao atuar contra o bullying e seus temas
             correlatos.
-            <br/>
             Nossa missão É criar ferramentas e metodologias ativas
             que promovam ambientes livres de medo e intimidação.
           </p>
-          <span className="hidden md:flex absolute top-0 right-36 w-6 h-6 bg-amarelo"></span>
-          <span className="hidden md:flex absolute top-24 right-56 w-6 h-6 bg-amarelo"></span>
-          <span className="hidden md:flex absolute top-52 right-32 w-6 h-6 bg-amarelo"></span>
-          <span className="hidden md:flex absolute top-72 -right-10 w-6 h-6 bg-amarelo"></span>
+          <span className="hidden 2xl:flex absolute top-0 2md:right-36 right-0 w-6 h-6 bg-amarelo"></span>
+          <span className="hidden 2xl:flex absolute top-24 2md:right-56 right-10 w-6 h-6 bg-amarelo"></span>
+          <span className="hidden 2xl:flex absolute top-52 2md:right-32 right-20 w-6 h-6 bg-amarelo"></span>
+          <span className="hidden 2xl:flex absolute top-72 2md:-right-10 -right-5 w-6 h-6 bg-amarelo"></span>
         </section>
 
 
-        <section className="flex gap-20">
-          <img src={fotoCriancas} className="h-96 object-cover -ml-40" />
+        <section className="flex 2md:gap-20 items-center 2xl:items-start">
+          <img src={fotoCriancas} className="2xl:h-96 h-64 object-cover -ml-40 hidden lg:block" />
           <div className="mt-6">
             <h2 className="text-3xl font-bold text-azul mb-4">VALORES E OBJETIVO</h2>
-            <p className="leading-6 text-xl mr-6">
+            <p className="leading-6 text-xl 2md:mr-6">
               Respeito ao próximo e a si mesmo; empatia com as
               vulnerabilidades; coragem para lidar com as adversidades;
               educação como caminho da liberdade. Nosso objetivo com o projeto
@@ -147,8 +146,8 @@ export default function SobreNos() {
 
         <section className="flex flex-col items-center mb-10">
           <img className="w-20 h-20" src={flor} alt="" />
-          <h1 className="text-5xl font-extrabold text-laranja mb-12">FINANCIAMENTO</h1>
-          <h2 className="text-2xl font-extrabold">A FAP-DF E SUA RELAÇÃO COM O PROJETO BULLYING MAP</h2>
+          <h1 className="2md:text-5xl text-4xl font-extrabold text-laranja 2md:mb-12 mb-8">FINANCIAMENTO</h1>
+          <h2 className="text-xl font-extrabold text-center mb-4 2md:mb-0">A FAP-DF E SUA RELAÇÃO COM O PROJETO BULLYING MAP</h2>
           <p className="text-xl leading-6 text-center">
             A Fundação de Apoio à Pesquisa do Distrito Federal - FAP-DF é uma
             instituição governamental que tem por objetivo fomentar projetos e
