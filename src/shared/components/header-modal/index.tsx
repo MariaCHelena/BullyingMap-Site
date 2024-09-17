@@ -16,7 +16,7 @@ export default function HeaderModal({
     return null;
 
   return (
-    <div className='absolute top-0 w-screen h-screen bg-[#00000048] z-50 flex md:hidden'>
+    <div className='absolute top-0 w-screen h-screen bg-[#00000048] z-50 flex 2md:hidden'>
       <div className='h-full w-fit bg-fundo p-12'>
         <ul className="flex flex-col gap-7">
           <li onClick={handleClose} className='w-20 h-20 object-cover -mb-10 -ml-5 -mt-5' >
