@@ -1,7 +1,7 @@
 import arvore from '../images/arvore.png'
 
 const EditalPage = () => {
-    return<div className="relative flex flex-col items-center h-screen gap-16 my-10 w-full 2xl:px-36">
+    return<div className="relative flex flex-col items-center h-screen gap-16 my-10 w-full lg:px-28 xl:px-32 2xl:px-36">
         <div className='flex flex-col justify-start gap-3 px-10'>
             <h1 className=" text-laranja text-4xl font-extrabold">EDITAL</h1>
             <h2 className="text-azul text-lg font-bold">COTAÇÃO PÚBLICA DE PREÇOS NO 001/2024</h2>
@@ -12,7 +12,7 @@ const EditalPage = () => {
             <a className="text-laranja font-medium underline" href="https://bullyingmap.com/wp-content/uploads/2024/09/COMUNICADO-COTACAO-PUBLICA-DE-PRECOS-BULLYING-MAP.pdf" target="__blank">Comunicado Cotação Pública de Preços - Bullying Map</a>
             <a className="text-laranja text-lg font-medium underline" href="https://bullyingmap.com/wp-content/uploads/2024/09/RESULTADO-PRELIMINAR-COTACAO-PUBLICA-BULLYING-MAP.pdf" target="__blank">Resultado preliminar do Edital 10/2023</a>
         </div>
-        <img className='absolute top-[90%] left-[63%] w-36 sm:w-48 sm:top-[85.5%] md:top-[91%] md:left-[67%] ' src={arvore} alt="Arvore" />
+        <img className='absolute top-[95.7%] left-[63%] w-36 sm:w-48 sm:top-[91%] md:top-[91%] md:left-[68%] ' src={arvore} alt="Arvore" />
     </div>
 }
 
