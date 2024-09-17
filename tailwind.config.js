@@ -16,6 +16,9 @@ export default {
         marrom: '#31201A',
         preto: '#000000',
         branco: '#ffffff',
+      },
+      screens: {
+        '2md': '980px' // breakpoint pra corrigir a responsividade da header
       }
     },
   },

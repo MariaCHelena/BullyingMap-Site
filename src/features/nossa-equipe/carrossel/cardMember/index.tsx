@@ -25,7 +25,7 @@ const CardMember = ({id, nome, codNome, funcao, descricao, linkLattes, onClick, 
     },[])
 
     return(<>
-    <img className='w-h-20 md:w-28 h-20 md:h-28' src={abelha} alt="Abelah" />
+    <img className='w-h-20 md:w-28 h-20 md:h-28 mb-4' src={abelha} alt="Abelah" />
     <button
         className='flex flex-col justify-center items-center'
         onClick={() => onClick(nome, codNome, funcao, descricao, linkLattes, id)}>
@@ -35,9 +35,9 @@ const CardMember = ({id, nome, codNome, funcao, descricao, linkLattes, onClick, 
         <div className='relative flex flex-col justify-center items-center mt-5'>
             <div className={`absolute top-[-8px] w-4 h-4 sm:w-5 sm:h-5 rotate-45 ${select ? 'bg-amarelo' : 'bg-azulMedio'}`}></div>
 
-            <p className={`${select ? 'text-azulMedio' : 'text-white'} text-lg ${select ? 'bg-amarelo' : 'bg-azulMedio'} font-bold w-20 h-9 sm:w-28 sm:h-11 rounded-2xl flex flex-row justify-center items-center gap-2`}>
+            <p className={`${select ? 'text-azulMedio' : 'text-white'} text-md ${select ? 'bg-amarelo' : 'bg-azulMedio'} font-bold w-28 h-9 sm:w-28 sm:h-11 rounded-2xl flex flex-row justify-center items-center gap-2`}>
 
-                {nome.split(' ')[0]} <ArrowLongRightIcon className={`hidden sm:block size-6 ${select ? 'text-azulMedio' : 'text-white'} bg-transparent`}/>
+                {nome.split(' ')[0]} <ArrowLongRightIcon className={`size-6 ${select ? 'text-azulMedio' : 'text-white'} bg-transparent`}/>
             </p>
         </div>
 
