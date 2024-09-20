@@ -6,7 +6,7 @@ const membros = [
         codNome: 'NEO, O ESCOLHIDO',
         funcao: 'Coordenador Geral e Pesquisador',
         descricao: 'Ele foi escolhido para fazer deste projeto um sucesso, é o nosso líder! O Fragelli é Doutor em Ciências Mecânicas, Mestre e Bacharel em Engenharia Mecânica (UnB). Atualmente, é Professor Adjunto da UnB dos cursos de Engenharia, do Mestrado profissional em Matemática e do Programa de pós-graduação em Design, onde orienta trabalhos na área de Design de informação e interação. Por meio de suas pesquisas em novos métodos, técnicas e tecnologias para a Educação, recebeu treze prêmios nacionais de Instituições como MEC, CAPES, Associação Brasileira de Educação a Distância (ABED), ABMES e Santander Universidades.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/6119310102978688',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const membros = [
         codNome: 'HOKAGE, O SONHADOR',
         funcao: 'Gestor Executivo',
         descricao: 'Ele é o idealizador do projeto, aquele que sonhou grande, sonhou ousado, e é multidisciplinar! É Bacharel em Ciência Política pela UnB, Técnico em Perícia Grafotécnica, especialista em Educação Financeira (UniBF) e em Investimento em Bolsa pela Universidade Lusíada de Lisboa, e Instrutor de Krav Maga pela escola Bukan. Atuou em Portugal, Espanha e Gibraltar, com aulas para crianças, adolescentes e mulheres. O Matt é CEO da Lobos Academy, startup que utiliza as artes marciais e a tecnologia como ferramenta educacional. Será a nossa ponte de captação de recursos, além de atuar na gestão das atividades e equipe do projeto e na aplicação das metodologias educacionais elaboradas.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/3837764832780192',
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const membros = [
         codNome: 'ORÁCULO, A ONIPRESENTE',
         funcao: 'Gestora Administrativa & Financeira',
         descricao: 'Nossa oráculo de projetos é Doutora e Mestre em Ciências e Tecnologias em Saúde pela UnB, bacharel em Saúde Coletiva (UnB) e Pós-graduada em Gerontologia pela UFT, atualmente professora da Faculdade de Ceilândia da UnB. Possui experiência de 10 anos na execução de projetos de pesquisa e extensão nacionais e internacionais e trabalhou com a temática do Bullying em Gibraltar e na Espanha. A Kell será nossa guia na administração financeira do projeto, em especial quanto a prestação de contas.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/6119405140634549',
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const membros = [
         codNome: 'J.A.R.V.I.S., O SOFTWARE HUMANO',
         funcao: 'Secretário Geral',
         descricao: 'Bacharel em Secretariado Executivo pelo Centro Universitário de Desenvolvimento do Centro Oeste (2010). Atualmente é servidor público federal, técnico-administrativo, Universidade de Brasília, Campus UnB Gama/FGA. O Idamar é nosso escribas responsável pela atualização e manutenção do nosso arquivo, garantindo a documentação da nossa história e de todos os documentos necessários para o andamento do projeto, além de secretariar toda a execução administrativa.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/2740228907679968',
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const membros = [
         codNome: 'AVATAR, O DOBRADOR DE ARTIGOS',
         funcao: 'Pesquisador e consultor de design',
         descricao: 'Professor Associado do Departamento de Design da Universidade de Brasília (UnB) e Membro do Programa de Pós-Graduação em Design, Doutor em Arte (UnB) na linha de Arte e Tecnologia, Mestre em Psicologia (UnB) e Bacharel em Design formado nas Habilitações de Projeto de Produto e Programação Visual (UnB). O Tiago também é quinto Dan em Karatê e será nosso guia em design, gamificação, pesquisa e claro, também nas artes marciais!',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/0727171902745709',
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const membros = [
         codNome: 'FEITICEIRA, A MAGA DA UI/UX',
         funcao: 'Pesquisadora e consultora de design',
         descricao: 'Professora titular do Departamento de Design do Instituto de Artes da UnB, a Virgínia é doutora e mestre em Tipografia e Comunicação Gráfica pela Universidade de Reading, Reino Unido, com pós-doutorado em Engenharia de Gestão do Conhecimento (PPG EGC) - UFSC. Também é membro do programa de pós-graduação em Design (PPG Design) e orientadora do programa de pós-graduação em Artes Visuais (PPGAV), ambos da Universidade de Brasília. No BullyingMap, será nossos braços e cérebro para desenvolver as pesquisas e publicações advindas do projeto.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/1113356615802141',
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ const membros = [
         codNome: 'ALEGRIA, O PROFESSOR DIVERTIDAMENTE',
         funcao: 'Pesquisador e Psicólogo',
         descricao: 'Professor do Curso de Engenharia de Software (UnB), o Wander atua na área de Transformação Digital de Serviços Públicos; Avaliação de Qualidade de Serviços Públicos Digitalizados; Gamificação; Saúde mental e Felicidade. Doutor em Psicologia (UnB), Mestre em Processos Comportamentais (UnB), Especialista em Ontologia da Linguagem (UCB), Graduado em Psicologia (UFP) e em Engenharia de Software (UniCesumar). Atua como consultor e bolsista em diversos órgãos como Ministério da Economia ME; Ministério da Ciência, Tecnologia, Inovação e Comunicações - MCTIC, Polícia Federal - PF, TST, Câmara dos Deputados, Exército Brasileiro, PMDF, dentre outros.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/5498523681017656',
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ const membros = [
         codNome: 'ALEX (MINECRAFT), A ARQUITETA DOS SONHOS',
         funcao: 'Arquiteta e projetista',
         descricao: 'Mais conhecida como Tatá, ela possui mestrado em Design de Interiores pela UDIMA e Insenia Design School em Madrid, além de formação em Arquitetura e Urbanismo pela UDF e Pós-graduação em Gerontologia pela UFT. Possui oito anos dedicados à experiência com idosos e cinco anos na arte de transformar ambientes através de projetos de interiores. A Tata é nossa arquiteta projetista e está pronta para dar vida às nossas ideias.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/4224127328978760',
     },
     {
         id: 9,
@@ -78,7 +78,7 @@ const membros = [
         codNome: 'TIANA, A PRINCESA DOS CÓDIGOS',
         funcao: 'Analista de Cyber Segurança',
         descricao: 'A Jeni é pós-graduanda em Cibersegurança ofensiva pela Acadi-TI, pós graduada em Engenharia de Software e Métodos Ágeis pela UniSul EAD, possui bacharel em Sistemas da Informação pela Uniceplac e tecnóloga em Análise e Desenvolvimento de Sistemas pela Fatec Guaratiguetá. Tem experiência em projetos que fomentam tecnologia, gamificação e educação pela UnB, com participação ativa no desenvolvimento de um Game educativo. Foi assessora técnica em pesquisa, desenvolvimento e inovação na UniSER-UnB, entusiasta na área de Inteligência Artificial e Robótica. A Jeniffer nos auxiliará no desenvolvimento do site e nos pré requisitos de segurança.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/2496207316391960',
     },
     {
         id: 10,
@@ -87,7 +87,7 @@ const membros = [
         codNome: 'DORY, A DETENTORA DA MEMÓRIA',
         funcao: 'Assistente Administrativa e turismóloga',
         descricao: 'Nossa maga das experiências turísticas é bacharel em Turismo pela UnB, possui MBA em Inteligência Competitiva e Inovação em Marketing (Faculdade Descomplica) e atualmente é Assistente Operacional no STB - Student Travel Bureau. Possui experiência de 5 anos na área de Turismo Cultural, 3 anos de Programas e Projetos de extensão nacionais e trabalhou por quase 2 anos com Turismo Pedagógico onde o meio escolar e suas implicações traziam diariamente questões como o Bullying nas escolas do DF. Karen será nossa pesquisadora no segmento que tange o turismo como agente social e nossa referência nas redes sociais e visitas técnicas!',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/5174830370314792',
     },
     {
         id: 11,
@@ -95,8 +95,8 @@ const membros = [
         nome: 'Marllon Fausto Cardoso',
         codNome: 'TADASHI YAMADA, O IRMÃO DO JAVA',
         funcao: 'Iniciação Científica',
-        descricao: 'Graduando em Engenharia de Software pela UnB, o Marllon realiza estudos e atividades envolvendo programação orientada a objetos, requisitos de software, métodos de desenvolvimento de software e outros, com ênfase em linguagens como python, java e C. Além disso, é membro da Empresa Júnior pela Orc’estra Gamificação, vencedor e depois staff do evento Rei e Rainha da Derivada UnB.',
-        linkLattes: '',
+        descricao: 'Graduando em Engenharia de Software pela UnB, o Marllon realiza estudos e atividades envolvendo programação orientada a objetos, requisitos de software, métodos de desenvolvimento de software, testes de software e outros, com ênfase em linguagens como python, java e C. Além disso, é membro da Empresa Júnior pela Orc’estra Gamificação.',
+        linkLattes: 'http://lattes.cnpq.br/1395914432666814',
     },
     {
         id: 12,
@@ -105,7 +105,7 @@ const membros = [
         codNome: 'SHERLOCK, INVESTIGADOR DE OPORTUNIDADES',
         funcao: 'Revisor de texto',
         descricao: 'Ele é o brabo! Licenciando em Letras Português e Inglês pela Unicesumar, bacharel em Museologia pela Universidade de Brasília e pós-graduado em Revisão Prática de Textos pela Unyleya, o Pedro possui experiência como professor de Taquigrafia para idosos, Xadrez para crianças e adolescentes em diversas escolas particulares de Brasília e ensino de Língua Portuguesa, variante brasileira, para estrangeiros. Irá nos auxiliar especialmente na produção de materiais didáticos e revisão dos textos produzidos pelo projeto, além de ser a ponte com escolas do DF para a apresentação do projeto.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/0810004570531963',
     },
     {
         id: 13,
@@ -114,7 +114,7 @@ const membros = [
         codNome: 'MULAN, A BRAVA',
         funcao: 'Terapeuta Ocupacional',
         descricao: 'A Encantadora de Crianças é Terapeuta Ocupacional (UnB), pós graduanda em Análise do Comportamento Aplicada ao Autismo e usa os seus encantos para o cuidado à crianças com transtornos do neurodesenvolvimento, além de intervir nessas alterações através da Integração Sensorial de Ayres. A nossa terapeuta possui experiência na elaboração de atividades individuais e em grupo com crianças, adultos e idosos. A Stella será nossa consultora no desenvolvimento das atividades do Bullying Map Edukit e nos auxiliará com sua experiência sobre o impacto do bullying em diferentes grupos de população vulnerável.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/0989854766412304',
     },
     {
         id: 14,
@@ -123,7 +123,7 @@ const membros = [
         codNome: 'ELLIOT, O HACKER',
         funcao: 'Consultor em Segurança da Informação',
         descricao: 'Com mais de 10 anos de experiência profissional na área de cibersegurança, o Raulex gosta de encarar desafios! Com um olhar detalhista para os assuntos de segurança, ele é formado em Segurança da Informação pela UCB, possui pós-graduação em rede de computadores pela UNICEUB e também é certificado em Hacker Ético pela Exin Exames. Atualmente está alocado em um projeto em Portugal na empresa Sonae.pt. No nosso projeto ele será consultor para assuntos de Segurança da informação e irá elaborar nossa política de privacidade de dados.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/2857871440227418',
     },
     {
         id: 15,
@@ -132,7 +132,7 @@ const membros = [
         codNome: 'VIÚVA NEGRA, A FATALE',
         funcao: 'Terapeuta Ocupacional',
         descricao: 'Instrutora de Sambo formada pela Confederação de Sambo do Brasil e especialista em defesa pessoal. Graduanda em Enfermagem pela Universidade Católica de Brasília. Participou do projeto de extensão Educação em Saúde, integrou da Liga Acadêmica de Enfermagem e Segurança do Paciente, Internato concluído no hospital HRT (Hospital Regional de Taguatinga) e UBS 02 de Ceilândia.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/8619128516947539',
     },
     {
         id: 16,
@@ -141,7 +141,7 @@ const membros = [
         codNome: 'RECRUTA, A LOW PROFILE',
         funcao: 'Iniciação Científica',
         descricao: 'Maria Helena é graduanda em Engenharia de Software, assessora de projetos na Orc’Estra Gamificação e sempre apta a aceitar novos desafios. Possui experiência e conhecimento na área de gestão de projetos, além de atuar como desenvolvedora Web e Mobile. Maria atuará como auxiliar e desenvolvedora do museu virtual do projeto.',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/8124451148114558',
     },
     {
         id: 17,
@@ -150,7 +150,7 @@ const membros = [
         codNome: 'KITTY PATA MANSA, A GÓTICA DAS CORES',
         funcao: 'Assessora de Arte & Design',
         descricao: 'A Tati é nossa designer! Ela possui experiência em áreas diversas na produção audiovisual, design gráfico e artes plásticas e gosta bastante de pesquisas que envolvem o quanto as reproduções visuais impactam no consciente (e subconsciente) das pessoas e o quanto isso influencia em suas escolhas na vida adulta. A Tati será responsável por toda a nossa identidade visual e produção de materiais lindos para nosso projeto!',
-        linkLattes: '',
+        linkLattes: 'http://lattes.cnpq.br/7695184883882715',
     },
 ]
 
